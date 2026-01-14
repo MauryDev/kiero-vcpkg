@@ -1,0 +1,33 @@
+{
+  "name": "kiero",
+  "version": "1.0.0",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    }
+  ],
+  "features": {
+    "d3d9": {
+      "description": "Suporte a DirectX 9"
+    },
+    "d3d10": {
+      "description": "Suporte a DirectX 10"
+    },
+    "d3d11": {
+      "description": "Suporte a DirectX 11"
+    },
+    "d3d12": {
+      "description": "Suporte a DirectX 12"
+    },
+    "opengl": {
+      "description": "Suporte a OpenGL"
+    },
+    "minhook": {
+      "description": "Incluir dependencia MinHook",
+      "dependencies": [
+        "minhook"
+      ]
+    }
+  }
+}
